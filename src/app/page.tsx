@@ -151,7 +151,7 @@ export default function HomePage() {
         {/* <div className="mb-12">
           <AdBanner slot="2345678901" format="horizontal" style={{minHeight:90}} />
         </div> */}
-        <script src="https://pl29783755.effectivecpmnetwork.com/fe/08/b4/fe08b4adfed0a1b72c27f4831267ef2f.js"></script>
+        <script src="https://pl29783756.effectivecpmnetwork.com/48/f6/af/48f6af9262eb2a7126e172be2d8a0bed.js"></script>
 
         {/* Best of 2025 */}
         <section className="mb-12">
