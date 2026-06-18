@@ -116,10 +116,10 @@ export default function HomePage() {
       </section>
 
       {/* Top banner ad */}
-      {/* <div className="max-w-7xl mx-auto px-4 mb-8">
-        <AdBanner slot="1234567890" format="horizontal" style={{minHeight:90}} />
-      </div> */}
-      <script src="https://pl29783755.effectivecpmnetwork.com/fe/08/b4/fe08b4adfed0a1b72c27f4831267ef2f.js"></script>
+      <div className="max-w-7xl mx-auto px-4 mb-8">
+        {/* <AdBanner slot="1234567890" format="horizontal" style={{minHeight:90}} /> */}
+        <script src="https://pl29783755.effectivecpmnetwork.com/fe/08/b4/fe08b4adfed0a1b72c27f4831267ef2f.js"></script>
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 pb-16">
         {/* Trending */}
