@@ -62,7 +62,7 @@ function SearchContent() {
       </div>
 
       {/* Top ad */}
-      <div className="mb-8"><AdBanner slot="4567890123" format="horizontal" style={{minHeight:90}} /></div>
+      {/* <div className="mb-8"><AdBanner slot="4567890123" format="horizontal" style={{minHeight:90}} /></div> */}
 
       {query && (
         <div className="mb-6">
@@ -91,7 +91,7 @@ function SearchContent() {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-8">
             {results.slice(0,8).map(v => <MovieCard key={v.id.videoId} video={v} />)}
           </div>
-          <div className="mb-8"><AdBanner slot="5678901234" format="horizontal" style={{minHeight:90}} /></div>
+          {/* <div className="mb-8"><AdBanner slot="5678901234" format="horizontal" style={{minHeight:90}} /></div> */}
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 mb-8">
             {results.slice(8).map(v => <MovieCard key={v.id.videoId} video={v} />)}
           </div>

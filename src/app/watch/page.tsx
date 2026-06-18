@@ -37,7 +37,7 @@ function WatchContent() {
       </button>
 
       {/* Top ad */}
-      <div className="mb-6"><AdBanner slot="6789012345" format="horizontal" style={{minHeight:90}} /></div>
+      {/* <div className="mb-6"><AdBanner slot="6789012345" format="horizontal" style={{minHeight:90}} /></div> */}
 
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Main */}
@@ -97,13 +97,13 @@ function WatchContent() {
           </div>
 
           {/* Mid ad */}
-          <div className="mt-6"><AdBanner slot="7890123456" format="rectangle" style={{minHeight:250}} /></div>
+          {/* <div className="mt-6"><AdBanner slot="7890123456" format="rectangle" style={{minHeight:250}} /></div> */}
         </div>
 
         {/* Sidebar */}
         <div className="lg:w-80 xl:w-96 shrink-0">
           {/* Vertical ad */}
-          <div className="mb-6"><AdBanner slot="8901234567" format="vertical" style={{minHeight:600}} /></div>
+          {/* <div className="mb-6"><AdBanner slot="8901234567" format="vertical" style={{minHeight:600}} /></div> */}
 
           {/* Related */}
           <h2 className="text-base font-semibold text-white mb-4">Related Movies</h2>
