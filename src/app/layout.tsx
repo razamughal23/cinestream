@@ -9,6 +9,9 @@ export const metadata: Metadata = {
     default: "CineStream - Watch Movies Online Free",
     template: "%s | CineStream",
   },
+  icons: {
+    icon: "/favicon.ico",
+  },
   description:
     "Watch movies, trailers and video content online for free on CineStream. Search thousands of titles.",
   keywords: [
