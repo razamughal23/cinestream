@@ -2,13 +2,10 @@
 import {
   Card,
   CardActionArea,
-  CardActions,
   CardContent,
   CardMedia,
-  IconButton,
   Typography,
 } from "@mui/material";
-import ShareIcon from "@mui/icons-material/Share";
 import Link from "next/link";
 
 type MovieCardProps = {
@@ -17,22 +14,6 @@ type MovieCardProps = {
   thumbnail: string | null;
 };
 const MovieCard = ({ title, url, thumbnail }: MovieCardProps) => {
-  const handleShare = (e: React.MouseEvent) => {
-    // card ke andar link navigation ko trigger hone se roko
-    e.preventDefault();
-    e.stopPropagation();
-    const fullUrl = `${window.location.origin}${url}`;
-
-    if (navigator.share) {
-      navigator.share({ title, url: fullUrl }).catch(() => {
-        /* user ne share cancel kiya, kuch nahi karna */
-      });
-    } else {
-      navigator.clipboard.writeText(fullUrl);
-      alert("Link copied to clipboard!");
-    }
-  };
-
   return (
     <Card
       sx={{

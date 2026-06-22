@@ -19,6 +19,7 @@ type Movie = {
   title: string;
   url: string;
   thumbnail: string | null;
+  videourl1: string;
 };
 
 type MoviesData = {
@@ -31,6 +32,7 @@ const PLAYERS = [
   { name: "Server 1", url: "" },
   { name: "Server 2", url: "" },
   { name: "Server 3", url: "" },
+  { name: "Server 4", url: "" },
 ];
 
 export default function MoviePlayerPage() {
@@ -68,6 +70,7 @@ export default function MoviePlayerPage() {
   }, [moviesData, slug]);
 
   const currentPlayerUrl = PLAYERS[activePlayer]?.url;
+  // const currentPlayerUrl = movie?.videourl1;
 
   // ================= LOADING STATE =================
   if (loading) {
